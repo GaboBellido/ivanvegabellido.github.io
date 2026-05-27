@@ -28,7 +28,7 @@ Then open http://localhost:8000 in your browser.
 
 ## Deploying to GitHub Pages
 
-1. **Create the repo on GitHub.** Name it `ivanvegabellido.github.io` (this gives you a free `https://ivanvegabellido.github.io` URL automatically) — or any name if you'll only use a custom domain.
+1. **Create the repo on GitHub.** Name it `GaboBellido.github.io` (this gives you a free `https://GaboBellido.github.io` URL automatically) — or any name if you'll only use a custom domain.
 
 2. **Push these files:**
 
@@ -38,7 +38,7 @@ Then open http://localhost:8000 in your browser.
    git add .
    git commit -m "Initial site"
    git branch -M main
-   git remote add origin https://github.com/<your-username>/<repo-name>.git
+   git remote add origin https://github.com/GaboBellido/<repo-name>.git
    git push -u origin main
    ```
 
@@ -47,7 +47,7 @@ Then open http://localhost:8000 in your browser.
 4. **Custom domain (`ivanvegabellido.com`).** In the same Pages settings, enter your domain. Then at your domain registrar, add these DNS records pointing at GitHub:
 
    - `A` records on the apex (`@`) pointing to: `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`
-   - `CNAME` record on `www` pointing to `<your-username>.github.io`
+   - `CNAME` record on `www` pointing to `GaboBellido.github.io`
 
    Re-check the "Enforce HTTPS" box on GitHub once DNS propagates (can take up to 24h, usually much faster).
 
