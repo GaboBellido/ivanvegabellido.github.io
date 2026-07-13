@@ -513,3 +513,17 @@ main, .nav { position: relative; z-index: 1; }
   }
   html { scroll-behavior: auto; }
 }
+
+/* Telos section */
+.telos-block { max-width: 720px; margin: 2.5rem auto 0; }
+.telos-label {
+  font-family: 'Inter', sans-serif; font-size: 0.72rem; letter-spacing: 0.16em;
+  text-transform: uppercase; opacity: 0.5; margin: 0 0 1rem;
+}
+.telos-item { display: flex; gap: 1rem; align-items: baseline; margin-bottom: 0.9rem; }
+.telos-id {
+  font-family: 'Inter', sans-serif; font-size: 0.75rem; font-weight: 500;
+  letter-spacing: 0.05em; opacity: 0.45; min-width: 2.2rem; white-space: nowrap;
+}
+.telos-item p { margin: 0; line-height: 1.55; }
+.telos-note { text-align: center; opacity: 0.55; margin-top: 2.5rem; font-size: 0.95rem; }
