@@ -338,6 +338,27 @@ main, .nav { position: relative; z-index: 1; }
   line-height: 1.7;
   margin: 0 0 24px;
 }
+.research-pubs {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 24px;
+}
+.research-pubs li {
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+.research-pubs a {
+  color: var(--ink);
+  text-decoration: none;
+  border-bottom: 1px solid var(--rule);
+  padding-bottom: 1px;
+  transition: color 0.25s ease, border-color 0.25s ease;
+}
+.research-pubs a:hover {
+  color: var(--gold-deep);
+  border-color: var(--gold);
+}
 .research-tags {
   list-style: none;
   padding: 0;
