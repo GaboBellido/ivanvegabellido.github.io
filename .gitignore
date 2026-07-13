@@ -7,3 +7,7 @@ node_modules/
 
 # WSL Windows Zone.Identifier artifacts
 *:Zone.Identifier
+
+# Large media — local archive only (GitHub 100MB limit)
+content/media/*.mp4
+content/media/*.mov
